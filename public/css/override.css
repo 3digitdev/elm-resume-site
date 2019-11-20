@@ -24,10 +24,6 @@ h5 {
     font-size: 2.2rem;
 }
 
-.debug-border {
-    border: 1px solid #C7C7C7;
-}
-
 span.page-header {
     border-top: 1px solid #C7C7C7;
     border-bottom: 1px solid #C7C7C7;
@@ -232,7 +228,7 @@ div.folio-image > img {
     div.folio-cards > div {
         flex-basis: 100%;
     }
-    /* TODO:  Add CSS to make the nav bar become a footer nav */
+
     .nav-bar {
         overflow: hidden;
         bottom: 0;
@@ -243,8 +239,6 @@ div.folio-image > img {
         display: flex;
     }
     .nav-link {
-        /* float: left;
-        display: block; */
         text-align: center;
         flex-grow: 1;
     }
