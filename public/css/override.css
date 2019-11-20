@@ -1,0 +1,269 @@
+/*! Used for overriding base stuff from Skeleton.css */
+
+body {
+    background-color: #373638;
+    color: #C7C7C7;
+}
+
+div.container {
+    margin-right: 10%;
+    margin-left: 10%;
+    max-width: 100%;
+}
+
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h6 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 2.2rem;
+}
+
+.debug-border {
+    border: 1px solid #C7C7C7;
+}
+
+span.page-header {
+    border-top: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.inline {
+    display: inline;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.full-shadow {
+    box-shadow: 0px 0px 30px #212121;
+    /* box-shadow: 5px 5px 10px #212121, 5px -5px 10px #212121, -5px -5px 10px #212121, -5px 5px 10px #212121; */
+}
+
+/* NAV BAR STUFF*/
+
+.nav-bar {
+    position: fixed;
+    right: 5%;
+    border: 1px solid #36a1c2;
+}
+
+.nav-bar > a:nth-last-child(1) > h4 {
+    margin-block-end: 0;
+}
+
+.nav {
+    padding: 1rem;
+}
+
+.nav > svg {
+    padding: 0 1rem 0 1rem;
+}
+
+.nav.current {
+    color: black;
+    background-color: #36a1c2;
+    border-color: #36a1c2;
+}
+
+.nav-current {
+    color: black;
+    background-color: #36a1c2;
+    border-color: #36a1c2;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+/* ABOUT PAGE */
+.avatar {
+    float: left;
+    margin-right: 2rem;
+}
+
+.about {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+h2.full-name {
+    text-align: left;
+}
+
+img.email {
+    display: block;
+}
+
+.social {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.spacer {
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+input[type=submit].hidden {
+    display: none;
+}
+
+div.bio > p:nth-of-type(1) {
+    margin-bottom: 1rem;
+}
+
+/* WORK HISTORY PAGE */
+.job {
+    margin-bottom: 2rem;
+    border: 1px solid #C7C7C7;
+}
+
+.job-em {
+    margin: 1rem 0 0 1rem;
+    font-weight: bold;
+}
+
+.info-wrapper {
+    padding: 0.5rem;
+}
+
+.job-info {
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+.job-resp {
+    margin: 1rem;
+}
+
+/* EDUCATION PAGE */
+.education {
+    margin-bottom: 2rem;
+    border: 1px solid #C7C7C7;
+}
+
+.ed-em {
+    margin: 1rem 0 0 1rem;
+    font-weight: bold;
+}
+
+.ed-info {
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+.ed-resp {
+    margin: 1rem;
+}
+
+/* SKILLS PAGE */
+div.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.skill-card {
+    margin: 0 2% 2% 0;
+    border: 1px solid #C7C7C7;
+    padding: 2rem;
+    flex: 1 0 25%;
+}
+
+
+/* PORTFOLIO PAGE */
+div.folio-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.folio-cards > div {
+    margin: 0 2% 2% 0;
+    padding: 2rem;
+    flex-basis: 25%
+}
+
+div.folio-item {
+    border: 1px solid #C7C7C7;
+    padding: 1.5rem;
+}
+
+div.folio-link > a {
+    text-decoration: none;
+}
+
+div.folio-image {
+    vertical-align: middle;
+    max-width: 512px;
+    max-height: 512px;
+}
+
+div.folio-image > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* OVERRIDES FOR MOBILE */
+
+
+@media (pointer:coarse) {
+    div.row.content:after {
+        margin-bottom: 6rem;
+    }
+    .avatar {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    div.folio-cards > div {
+        flex-basis: 100%;
+    }
+    /* TODO:  Add CSS to make the nav bar become a footer nav */
+    .nav-bar {
+        overflow: hidden;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        box-sizing: 0px 0px 0px;
+        background-color: #373638;
+        display: flex;
+    }
+    .nav-link {
+        /* float: left;
+        display: block; */
+        text-align: center;
+        flex-grow: 1;
+    }
+    .nav-bar > a > h4.nav {
+        font-size: 0px;
+    }
+    .nav-bar > a > h4.nav > svg {
+        height: 32px;
+        width: 32px;
+    }
+    .nav {
+        margin-bottom: 0;
+    }
+    @media (min-width: 550px) and (max-width: 1366px){
+        div.three.columns.nav-bar {
+            width: 100%;
+        }
+        div.nine.columns {
+            width: 100%
+        }
+    }
+}
