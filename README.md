@@ -82,7 +82,6 @@ This repo contains a "sample" resume that I defined in `src/Main.elm` that you c
 |   |   ├── override.css            Custom CSS file by me for arranging stuff
 |   |   └── skeleton.css            Second of two files provided by Skeleton CSS
 |   ├── index.html                  The app HTML page
-|   ├── resume.js                   The compiled JS from Elm that the app runs on
 |   ├── sampleAvatar.png            Example avatar image -- DELETE
 |   ├── sampleEmail.png             Example "email image" file -- DELETE
 |   └── sampleWebsiteImage.png      Example used for the Portfolio page -- DELETE
@@ -114,14 +113,14 @@ a property in `body` in the `public/css/override.css` file.
 The 3 main colors used are in `public/css/override.css`:
 
 1. **Text/Borders**
-  - This is defined as #C7C7C7
+  - This is defined as `#C7C7C7`
   - You will need to do a find/replace for that value, used multiple places
     - I don't use a preprocessor, sorry.
 2. **Background**
-  - This is defined as #373638
+  - This is defined as `#373638`
   - Again, you'll need to do a find/replace.  Sorry :/
 3. **Navbar**
-  - The blue used in the main app is defined as #36a1c2
+  - The blue used in the main app is defined as `#36a1c2`
   - Find and replace, blah blah blah I'm bad at CSS
 
 ## Building Your Resume
