@@ -19,35 +19,25 @@ the user to decide.
 
 Let's start with a preview of the app:
 
-<details><summary>About Page</summary>
-<p>
+### About Page
+
 ![About Page Example](images/about_sample.png)
-</p>
-</details>
 
-<details><summary>Work History Page</summary>
-<p>
+### Work History Page
+
 ![About Page Example](images/work_sample.png)
-</p>
-</details>
 
-<details><summary>Education Page</summary>
-<p>
+### Education Page
+
 ![About Page Example](images/education_sample.png)
-</p>
-</details>
 
-<details><summary>Skills Page</summary>
-<p>
+### Skills Page
+
 ![About Page Example](images/skills_sample.png)
-</p>
-</details>
 
-<details><summary>Portfolio Page</summary>
-<p>
+### Portfolio Page
+
 ![About Page Example](images/portfolio_sample.png)
-</p>
-</details>
 
 ## This is magical!  How do I use it?!
 
@@ -123,14 +113,14 @@ a property in `body` in the `public/css/override.css` file.
 
 The 3 main colors used are in `public/css/override.css`:
 
-1. Text/Borders
+1. **Text/Borders**
   - This is defined as #C7C7C7
   - You will need to do a find/replace for that value, used multiple places
     - I don't use a preprocessor, sorry.
-2. Background
+2. **Background**
   - This is defined as #373638
   - Again, you'll need to do a find/replace.  Sorry :/
-3. Navbar
+3. **Navbar**
   - The blue used in the main app is defined as #36a1c2
   - Find and replace, blah blah blah I'm bad at CSS
 
